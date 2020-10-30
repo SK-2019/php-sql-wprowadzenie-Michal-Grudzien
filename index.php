@@ -1,7 +1,5 @@
-$servername = 'sql7.freemysqlhosting.net';
-$username = 'sql7373528';
-$password = 'SnSvdZtxTb';
-$dbname = 'sql7373528';
+<?php
+require_once("connect.php");
 $conn = new mysqli($servername, $username, $password, $dbname);
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<35 and
 zarobki>20');
