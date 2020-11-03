@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Michal Grudzien 2Ti</h1>
 <?php
 require_once("connect.php");
 $conn = new mysqli("sql7.freemysqlhosting.net","sql7373528","SnSvdZtxTb","sql7373528");
@@ -15,3 +22,5 @@ echo('</tr>');
 echo('</table>');
 
 ?>
+</body>
+   </html>
