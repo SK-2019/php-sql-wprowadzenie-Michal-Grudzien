@@ -1,5 +1,6 @@
 <?php
 require_once("connect.php");
+$conn = new mysqli("sql7.freemysqlhosting.net","sql7373528","SnSvdZtxTb","sql7373528");
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<35 and
 zarobki>20');
 echo('<table border = 1>');
