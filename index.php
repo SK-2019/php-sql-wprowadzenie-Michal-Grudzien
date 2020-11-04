@@ -20,7 +20,7 @@ echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td><td>'.$row['dzi
 echo('</tr>');
 }
 echo('</table>');
-
+y
 ?>
 </body>
    </html>
