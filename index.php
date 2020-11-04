@@ -5,6 +5,7 @@
 </head>
 <body>
   <h1>Michal Grudzien 2Ti</h1>
+  <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
 <?php
 require_once("connect.php");
 $conn = new mysqli("sql7.freemysqlhosting.net","sql7373528","SnSvdZtxTb","sql7373528");
