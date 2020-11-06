@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-</head>
+</head> 
 <body>
   <h1>Michal Grudzien 2Ti</h1>
   <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
