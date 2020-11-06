@@ -26,6 +26,56 @@
             }
         echo("</table>");
     echo("<hr />");
+    
+    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org and (dzial=1 or dzial=4)');
+   echo("<hr />");
+        echo("<h3>Tabela Pracowników z działu 1 albo 4</h3>")
+        echo("<table border=1>");
+        echo("<th>id</th>");
+        echo("<th>imie</th>");
+        echo("<th>dzial</th>");
+        echo("<th>zarobki</th>");
+   while($row=$result->fetch_assoc()){
+         echo("<tr>");
+         echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['dzial']."</td><td>".$row['zarobki']."</td>);
+            }
+        echo("</table>");
+    echo("<hr />");
+   
+   
+    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org and imie like "%a"');
+   echo("<hr />");
+        echo("<h3>Tabela Pracowników płci żeńskiej</h3>")
+        echo("<table border=1>");
+        echo("<th>id</th>");
+        echo("<th>imie</th>");
+        echo("<th>dzial</th>");
+        echo("<th>zarobki</th>");
+   while($row=$result->fetch_assoc()){
+         echo("<tr>");
+         echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['dzial']."</td><td>".$row['zarobki']."</td>);
+            }
+        echo("</table>");
+    echo("<hr />");
+    
+    
+    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org and imie not like "%a"');
+   echo("<hr />");
+        echo("<h3>Tabela Pracowników płci menskiej</h3>")
+        echo("<table border=1>");
+        echo("<th>id</th>");
+        echo("<th>imie</th>");
+        echo("<th>dzial</th>");
+        echo("<th>zarobki</th>");
+   while($row=$result->fetch_assoc()){
+         echo("<tr>");
+         echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['dzial']."</td><td>".$row['zarobki']."</td>);
+            }
+        echo("</table>");
+    echo("<hr />");
+    
+    
+    
    
    
    ?>
