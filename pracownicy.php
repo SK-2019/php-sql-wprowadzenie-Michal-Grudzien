@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-  require_once('conn.php');;
+  require_once('connect.php');
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
         echo("<h3>Tabela Pracowników</h3>");
         echo("<table border=1>");
