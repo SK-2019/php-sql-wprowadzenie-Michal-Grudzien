@@ -43,7 +43,7 @@
         echo("</table>");
     
     
-    $result = $conn->query('SELECT  * FROM pracownicy WHERE dzial=2 or dzial=3');
+    $result = $conn->query('SELECT  * FROM pracownicy WHERE (dzial=2 or dzial=3)');
       echo("<hr />");
         echo("<h3>Tabela pracowników z działu 2 i 3</h3>"); 
         echo("<table>");
