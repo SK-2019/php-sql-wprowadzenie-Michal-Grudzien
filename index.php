@@ -7,8 +7,8 @@
   <h1>Michal Grudzien 2Ti</h1>
   <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
   <div class="nav">
-     <a href="pracownicy.php">Pracownicy wstęp</a>
-        <a href="funkcjeagregujace.php">Funkcje agregujace</a>
+     <a class="nav_link" href="pracownicy.php">Pracownicy wstęp</a>
+     <a class="nav_link" href="funkcjeagregujace.php">Funkcje agregujace</a>
   </div>
 <?php
   
