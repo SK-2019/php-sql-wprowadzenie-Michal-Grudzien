@@ -9,7 +9,7 @@
   <div class="nav">
      <a class="nav_link" href="pracownicy.php">Pracownicy wstęp</a>
      <a class="nav_link" href="funkcjeagregujace.php">Funkcje agregujace</a>
-  </div>
+  </div
 <?php
   
   
