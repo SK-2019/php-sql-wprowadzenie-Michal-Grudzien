@@ -6,9 +6,14 @@
 <body>
   <h1>Michal Grudzien 2Ti</h1>
   <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
+  <div class="nav">
+     <a href="pracownicy.php">Pracownicy wstęp</a>
+        <a href="funkcjeagregujace.php">Funkcje agregujace</a>
+  </div>
 <?php
+  
+  
 require_once("connect.php");
-$conn = new mysqli("sql7.freemysqlhosting.net","sql7373528","SnSvdZtxTb","sql7373528");
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<30');
 echo('<table border = 1>');
 echo('<th>id</th>');
