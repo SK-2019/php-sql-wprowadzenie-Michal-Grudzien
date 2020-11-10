@@ -11,5 +11,19 @@
 </div>
 </head>
 <body>
-  
+    
+    echo("<hr />");
+             require_once('connect.php');
+             $result=$conn->query('SELECT sum(zarobki) as suma from pracownicy');
+                echo("<h3>Suma zarobków wszystkich pracowników</h3>");//nazwa nad tabelą
+                echo("<table border=1>");
+                echo("<th>suma</th>");
+                    while($row=$result->fetch_assoc()){
+                        echo("<tr>");
+                            echo("<td>".$row['suma']."</td>");
+                        echo("</tr>");
+                    }
+                echo("</table>");
+        echo("<hr />");
+ 
 ?>
