@@ -39,5 +39,35 @@
                 }
             echo("</table>");
     echo("<hr />");
+    
+    $result=$conn->query('SELECT nazwa_dzial,sum(zarobki) as suma from pracownicy,organizacja where imie not like "%a" and dzial=id_org and dzial=2 or dzial=3 group by dzial');
+    echo("<h3> Suma zarobków Mężczyzn z działu 2 lub działu 3 </h3>");
+            echo("<table border=1>");
+            echo("<th>suma</th>");
+            echo("<th>nazwa działu</th>");
+                while($row=$result->fetch_assoc()){
+                    echo("<tr>");
+                        echo("<td>".$row['suma']."</td><td>".$row['nazwa_dzial']."</td>");
+                    echo("</tr>");
+                }
+            echo("</table>");
+    echo("<hr />");
+    
+    $result=$conn->query('SELECT nazwa_dzial,dzial,avg(zarobki) as srednia from pracownicy,organizacja where dzial=id_org');
+    echo("<h3> Średnie zarobki Mężczyzn </h3>");
+            echo("<table border=1>");
+            echo("<th>srednia</th>");
+            echo("<th>nazwa działu</th>");
+                while($row=$result->fetch_assoc()){
+                    echo("<tr>");
+                        echo("<td>".$row['suma']."</td><td>".$row['nazwa_dzial']."</td>");
+                    echo("</tr>");
+                }
+            echo("</table>");
+    echo("<hr />");
+    
+    
+    
+    
  
 ?>
