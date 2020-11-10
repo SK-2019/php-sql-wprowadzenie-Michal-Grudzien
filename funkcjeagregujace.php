@@ -25,5 +25,18 @@
                     }
                 echo("</table>");
         echo("<hr />");
+    
+    $result=$conn->query('SELECT nazwa_dzial,sum(zarobki) as suma from pracownicy,organizacja where imie like "%a" and dzial=id_org group by nazwa_dzial');
+    echo("<h3> Wszystkie zarobki wszystkich Kobiet</h3>");
+            echo("<table border=1>");
+            echo("<th>suma</th>");
+            echo("<th>nazwa działu</th>");
+                while($row=$result->fetch_assoc()){
+                    echo("<tr>");
+                        echo("<td>".$row['suma']."</td><td>".$row['nazwa_dzial']."</td>");
+                    echo("</tr>");
+                }
+            echo("</table>");
+    echo("<hr />");
  
 ?>
