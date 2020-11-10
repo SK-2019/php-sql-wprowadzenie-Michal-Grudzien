@@ -11,6 +11,7 @@
 </div>
 </head>
 <body>
+    <?php
     
     echo("<hr />");
              require_once('connect.php');
