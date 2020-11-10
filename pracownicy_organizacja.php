@@ -76,7 +76,7 @@
          echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['dzial']."</td><td>".$row['zarobki']."</td><td>".['nazwa_dzial']."</td>");
             }
         echo("</table>");
-    echo("<hr />")
+    echo("<hr />");
     
     
     
