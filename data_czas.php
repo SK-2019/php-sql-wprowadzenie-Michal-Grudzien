@@ -136,8 +136,7 @@
                             }
                         echo("</table>");
                         echo("<hr />");
-
-                        echo("<h3>Najstarsi pracownicy w każdym dziale (nazwa_dział, wiek)</h3>");
+ 
                         $sql=('SELECT MAX(YEAR(CURDATE()) - YEAR(data_urodzenia)) as wiek, nazwa_dzial from pracownicy,organizacja where id_org=dzial group by dzial');
                     $result=$conn->query($sql);
                         echo("<table border=1>");
@@ -213,8 +212,6 @@
                         echo("</table>");
                         echo("<hr />");
                         
-                        echo("<h2>Formatowanie Dat</h2>");
-            echo("<hr />");
 
 
 
