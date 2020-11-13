@@ -15,7 +15,7 @@
 <body>
 <?php
 
- require_once('connect.php');
+ $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
                         echo("<hr>");
                         echo("<h3>Wiek poszczególnych pracowników (w latach)</h3>");
             $sql=('SELECT * ,YEAR(curdate())-YEAR(data_urodzenia) as wiek FROM pracownicy,organizacja where dzial=id_org');
