@@ -97,7 +97,7 @@
                         echo("<hr />");
  
                         $sql=('SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as Suma from pracownicy where imie not like "%a"');
-                    $result=$conn->query($sql);//mysql
+                    $result=$conn->query($sql);
                         echo("<table border=1>");
                         echo("<li>SQL: $sql");
                         echo("<th>Suma</th>");
@@ -153,7 +153,7 @@
                         echo("<hr />");
 
                         $sql=('SELECT min(YEAR(CURDATE()) - YEAR(data_urodzenia)) as wiek, nazwa_dzial from pracownicy,organizacja where dzial=id_org and nazwa_dzial="handel" or nazwa_dzial="serwis" group by nazwa_dzial');
-                    $result=$conn->query($sql)
+                    $result=$conn->query($sql);
                         echo("<table border=1>");
                         echo("<li>SQL: $sql");
                         echo("<th>wiek</th>");
