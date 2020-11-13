@@ -14,7 +14,7 @@
     </div>
 <?php
    
-        require_once('connect.php');
+       $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
    echo("<hr />");
         echo("<h3>Tabela Pracowników</h3>")
