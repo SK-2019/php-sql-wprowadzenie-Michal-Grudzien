@@ -1,8 +1,8 @@
 <?php
-$servername = 'sql7.freemysqlhosting.net';
-$username = 'sql7373528';
-$password = 'SnSvdZtxTb';
-$dbname = 'sql7373528';
+$servername = 'mysql-michalgrudzien04.alwaysdata.net';
+$username = '218517';
+$password = 'ZAKo140';
+$dbname = 'michalgrudzien04_baza';
 
 //Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
