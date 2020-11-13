@@ -4,12 +4,15 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php
+<div class="nav">
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
    <a class="nav_link" href="pracownicy.php"><b>Pracownicy wstep<b></a>
    <a class="nav_link" href="funkcjeagregujace.php"><b>Funkcje Agregujace<b></a>
    <a class="nav_link" href="pracownicy_organizacja.php"><b>Pracownicy i Organizacja<b></a>
    <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
+   <a class="nav_link" href="data_czas.php">Data i Czas</a>
+    </div>
+<?php
    
         require_once('connect.php');
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
