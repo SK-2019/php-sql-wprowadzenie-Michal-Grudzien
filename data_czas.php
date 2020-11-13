@@ -8,6 +8,7 @@
  <a class="nav_link" href="funkcjeagregujace.php">Funkcje agregujace</a>
  <a class="nav_link" href="pracownicy_organizacja.php"><b>Pracownicy i Organizacja<b></a>
  <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
+ <a class="nav_link" href="data_czas.php">Data i Czas</a>
     
 </div>
 </head>
