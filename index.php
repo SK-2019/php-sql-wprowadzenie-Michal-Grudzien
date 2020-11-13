@@ -14,9 +14,7 @@
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
   </div>
 <?php
-  
-  
-require_once("connect.php");
+$conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<30');
 echo('<table border = 1>');
 echo('<th>id</th>');
