@@ -8,12 +8,11 @@
     <a class="nav_link" href="funkcjeagregujace.php">Funkcje Agregujące</a>
     <a class="nav_link" href="pracownicy_organizacja.php"><b>Pracownicy i Organizacja<b></a>
    <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
+   <a class="nav_link" href="data_czas.php">Data i Czas</a>
 </div>
 </head>
 <body>
     <?php
-    
-    echo("<hr />");
              require_once('connect.php');
              $result=$conn->query('SELECT sum(zarobki) as suma from pracownicy');
                 echo("<h3>Suma zarobków wszystkich pracowników</h3>");//nazwa nad tabelą
