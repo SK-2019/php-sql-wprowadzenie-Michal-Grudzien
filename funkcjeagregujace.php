@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php
-             require_once('connect.php');
+            $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
              $result=$conn->query('SELECT sum(zarobki) as suma from pracownicy');
                 echo("<h3>Suma zarobków wszystkich pracowników</h3>");//nazwa nad tabelą
                 echo("<table border=1>");
