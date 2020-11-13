@@ -104,7 +104,7 @@
             echo("</table>");
     echo("<hr />");
     
-    $result=$conn->query('SELECT nazwa_dzial,sum(zarobki)as suma from pracownicy, organizacja where dzial=id_org GROUP BY nazwa_dzial HAVING sum(zarobki) < 28');
+    $result=$conn->query('SELECT nazwa_dzial,sum(zarobki)as suma from pracownicy, organizacja where dzial=id_org GROUP BY nazwa_dzial HAVING sum(zarobki)<28');
     echo("<h3> Suma zarobkow mniejsza od 28 </h3>");
             echo("<table border=1>");
             echo("<th>suma</th>");
@@ -117,7 +117,7 @@
             echo("</table>");
     echo("<hr />");
     
-    $result=$conn->query('SELECT nazwa_dzial,avg(zarobki)as suma from pracownicy, organizacja WHERE imie not like "%a" GROUP BY nazwa_dzial HAVING avg(zarobki) > 30');
+    $result=$conn->query('SELECT nazwa_dzial,avg(zarobki)as suma from pracownicy, organizacja WHERE imie not like "%a" GROUP BY nazwa_dzial HAVING avg(zarobki)>30');
     echo("<h3> srednie zarobki mezczyzn wieksze od 30 </h3>");
             echo("<table border=1>");
             echo("<th>srednia</th>");
@@ -130,7 +130,7 @@
             echo("</table>");
     echo("<hr />");
     
-    $result=$conn->query('SELECT nazwa_dzial,count(id_pracownicy)as suma from pracownicy, organizacja WHERE dzial=id_org GROUP BY dzial HAVING count(id_pracownicy) > 3');
+    $result=$conn->query('SELECT nazwa_dzial,count(id_pracownicy)as suma from pracownicy, organizacja WHERE dzial=id_org GROUP BY dzial HAVING count(id_pracownicy)>3');
     echo("<h3> Ilosc pracownikow wieksza w danym dziale od 3 </h3>");
             echo("<table border=1>");
             echo("<th>ilosc</th>");
