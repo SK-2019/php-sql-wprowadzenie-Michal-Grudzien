@@ -1,6 +1,7 @@
 <?php
 
 echo("jestes na strona.php");
+echo("</br>");
 
 echo($_POST["imie"]);
 echo($_POST["nazwisko"]);
