@@ -14,8 +14,12 @@
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
   </div>
       <form action="strona.php" method="POST">
-     <input type="text" name="dane"></br>
-     <input type="submit" value="wyślij do strona.php">
+    <input type="text" name="imie"></br>
+    <input type="text" name="nazwisko"></br>
+    <input type="text" name="pesel"></br>
+    <input type="text" name="urodziny"></br>
+    <input type="text" name="adres"></br>
+    <input type="submit" value="wyślij do strona.php">
   </form>
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
