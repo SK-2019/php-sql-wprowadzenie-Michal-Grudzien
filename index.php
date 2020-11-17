@@ -14,7 +14,7 @@
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
   </div>
       <form action="strona.php" method="POST">
-     <input type="text" name="asd"></br>
+     <input type="text" name="dane"></br>
      <input type="submit" value="wyślij do strona.php">
   </form>
 <?php
