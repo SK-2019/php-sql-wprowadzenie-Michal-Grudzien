@@ -4,7 +4,8 @@ echo("jestes na strona.php");
 echo("</br>");
 echo("<h3>Imie</h3>");
 echo($_POST["imie"]);
-echo("<h3>Nazwisko/h3>");
+echo("</br>")
+echo("<h3>Nazwisko</h3>");
 echo($_POST["nazwisko"]);
 echo("</br>");
 echo("<h3>Pesel</h3>");
