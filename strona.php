@@ -18,7 +18,7 @@ echo("<h3>Adres</h3>");
 echo($_POST["adres"]);
 
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
-$sql = "INSERT INTO spaLcr81av(`id_pracownicy`, `imie`) VALUES (NULL,'".$_POST['imie']."')";
+$sql = "INSERT INTO pracownicy(`id_pracownicy`, `imie`, `dzial`, `zarobki`, `data_urodzenia`) VALUES(NULL,'".$_POST['imie']."', NULL, NULL, NULL)";
 	$conn->query($sql);
 if ($conn->query($sql) === TRUE) {
     echo "utworzono";
