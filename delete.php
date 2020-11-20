@@ -14,8 +14,11 @@
     <a class="nav_link" href="formularz.html"><b>Formularz<b></a>
   </div>
   <?php
+echo("jestes w delete.php <br>");
+echo $_POST['id'];
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 
+      $sql = "DELETE FROM pracownicy WHERE id= $_POST['id'];";
 
 
 
