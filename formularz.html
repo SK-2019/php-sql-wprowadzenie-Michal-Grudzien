@@ -14,6 +14,7 @@
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
     <a class="nav_link" href="formularz.html"><b>Formularz<b></a>
   </div>
+      <h3>Dodawanie Pracownika do tabelki</h3>
   <form action="strona.php" method="POST">
    imie: <input type="text" name="imie"></br>
    dzial: <input type="text" name="dzial"></br>
@@ -22,5 +23,10 @@
     adres: <input type="text" name="adres"></br>
     <input type="submit" value="wyślij do strona.php">
   </form>
-  </body>
+  <h3>Usuwanie Pracownika z tabelki</h3>
+  <form action="delete.php" method="POST">
+    id: <input type="number" name="id"></br>
+   <input type="submit" value="Zapisz w zmiennej $_POST['id']">
+</form>
+</body>
 </html>
