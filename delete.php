@@ -19,6 +19,15 @@ echo $_POST['id'];
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 
       $sql = "DELETE FROM pracownicy WHERE id= $_POST['id'];";
+      echo $sql;
+
+if ($conn->query($sql) === TRUE) {
+  echo "udalo sie";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
 
 
 
