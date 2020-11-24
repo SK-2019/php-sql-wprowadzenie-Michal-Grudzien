@@ -13,6 +13,7 @@
    <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
     <a class="nav_link" href="Danedobazy.html"><b>DaneDoBazy<b></a>
+     <a class="nav_link" href="function.php"><b>Funkcja<b></a>                                                    
   </div>
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
