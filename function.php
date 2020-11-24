@@ -18,15 +18,17 @@
 <?php
 echo("abc");
 
-function funkcja1($liczba){
-  echo("<li>dziala funkcja");
-  echo("<li>proba ".$liczba);
-  for($i=1;$i<$liczba;$i++){
-    echo("<li>petla: ".$i);
+function funkcja1()
+{
+ echo("<li>dziala funkcja");
+  echo("<li>proba");
+  for($i=1;$i<10; $++)
+  {
+    echo("<li>petla:" .$i);                                 
   }
 }
-funkcja(33);
-
+funkcja1();
+funkcja1(33);
 
 ?>
 </body>
