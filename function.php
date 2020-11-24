@@ -22,7 +22,7 @@ function funkcja1()
 {
  echo("<li>dziala funkcja");
   echo("<li>proba");
-  for($i=1;$i<10; $++)
+  for($i=1;$i<10; $i++)
   {
     echo("<li>petla:" .$i);                                 
   }
