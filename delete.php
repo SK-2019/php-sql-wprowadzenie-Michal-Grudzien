@@ -16,20 +16,19 @@
   <?php
 echo("jestes w delete.php <br>");
 echo $_POST['id'];
+
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 
-      $sql = "DELETE FROM pracownicy WHERE id= $_POST['id'];";
-      echo $sql;
-
+$sql = "DELETE FROM pracownicy WHERE id_pracownicy='".$_POST['id']."'";
+     echo $sql;
 if ($conn->query($sql) === TRUE) {
-  echo "udalo sie";
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
-
-
-
-
+        echo("<h1 class='precord'> Usunięto pracownika </h1>");
+      } else {
+        echo("<h1 class='precord'>'Error: ' . $sql . '<br>' . $conn->error</h1>");
+      }
+      
 ?>
+
+</body>
+</head>
+</html>
