@@ -22,7 +22,7 @@ $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo14
 $sql = "DELETE FROM pracownicy WHERE id_pracownicy='".$_POST['id']."'";
      echo $sql;
 if ($conn->query($sql) === TRUE) {
-        echo("<h1 class='precord'> Usunięto pracownika </h1>");
+        echo("<h1 class='precord'> Pracownik Usunięty z Bazy Danych </h1>");
       } else {
         echo("<h1 class='precord'>'Error: ' . $sql . '<br>' . $conn->error</h1>");
       }
