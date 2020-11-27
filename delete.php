@@ -11,7 +11,7 @@
     <a class="nav_link" href="pracownicy_organizacja.php"><b>Pracownicy i Organizacja<b></a>
    <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
-   <a class="nav_link" href="Danedobazy.html"><b>DaneDoBazy<b></a>
+   <a class="nav_link" href="Danedobazy.php"><b>DaneDoBazy<b></a>
   </div>
   <?php
 echo("jestes w delete.php <br>");
