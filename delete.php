@@ -23,7 +23,7 @@ $sql = "DELETE FROM pracownicy WHERE id_pracownicy='".$_POST['id']."'";
      echo $sql;
 if ($conn->query($sql) === TRUE) {
         echo("<h1 class='precord'> Pracownik Usunięty z Bazy Danych </h1>");
-        header('Location: https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php');
+        header('Location:https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php');
       } else {
         echo("<h1 class='precord'>'Error: ' . $sql . '<br>' . $conn->error</h1>");
       }
