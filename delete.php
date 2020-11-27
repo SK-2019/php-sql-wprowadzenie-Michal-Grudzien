@@ -23,6 +23,7 @@ $sql = "DELETE FROM pracownicy WHERE id_pracownicy='".$_POST['id']."'";
      echo $sql;
 if ($conn->query($sql) === TRUE) {
         echo("<h1 class='precord'> Pracownik Usunięty z Bazy Danych </h1>");
+        header('Location: http://www.example.com/');
       } else {
         echo("<h1 class='precord'>'Error: ' . $sql . '<br>' . $conn->error</h1>");
       }
