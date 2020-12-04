@@ -20,7 +20,6 @@
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
   $sql = 'SELECT * FROM biblTytul';
 echo("<h1>Tytuły:</h1>");
-echo("<li>".$sql);
 $result = $conn->query($sql);
         echo("<table border=1>");
         echo("<th>id</th>");
