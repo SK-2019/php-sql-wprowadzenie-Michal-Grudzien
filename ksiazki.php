@@ -19,19 +19,18 @@
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
   $sql = 'SELECT * FROM biblTytul';
-echo("<h1>Tytuły</h1>");
 $result = $conn->query($sql);
-        echo("<table border=1>");
-        echo("<th>id</th>");
-        echo("<th>tytul</th>");
-            while($row=$result->fetch_assoc()){ 
-                echo("<tr>");
-                    echo("<td>".$row["id"]."</td><td>".$row["tytul"]."</td>"); 
-
-                echo("</tr>");
-            }
-
-        echo("</table>");
+         echo("<hr />");
+    echo("<h1>Tytuły</h1>");
+    echo("<li>$sql");
+    echo("<select name='title' id='title'>");
+  
+        while($row=$result->fetch_assoc()){
+           
+            echo("<option value=".$row['id'].">".$row['tytul']."</option>");
+        }
+    echo("</select>");
+echo("<hr />");
        
        $sql = 'SELECT * FROM biblAutor';
 echo("<h1>Autorzy</h1>");
