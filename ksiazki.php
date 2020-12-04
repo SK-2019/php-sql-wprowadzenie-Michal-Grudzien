@@ -34,7 +34,6 @@ echo("<hr />");
        $sql = 'SELECT * FROM biblAutor';
 echo("<h1>Autorzy</h1>");
 $result=$conn->query($sql);
-echo("<h1>Autorzy</h1>");
     echo("<select name='title' id='title'>");
   while($row=$result->fetch_assoc()){
     echo("<option value=".$row['id'].">".$row['autor']."</option>");
