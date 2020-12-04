@@ -33,18 +33,13 @@ echo("<hr />");
        
        $sql = 'SELECT * FROM biblAutor';
 echo("<h1>Autorzy</h1>");
-$result = $conn->query($sql);
-        echo("<table border=1>");
-        echo("<th>id</th>");
-        echo("<th>autor</th>");
-            while($row=$result->fetch_assoc()){ 
-                echo("<tr>");
-                    echo("<td>".$row["id"]."</td><td>".$row["autor"]."</td>"); 
-
-                echo("</tr>");
-            }
-
-        echo("</table>");
+$result=$conn->query($sql);
+echo("<h1>Autorzy</h1>");
+    echo("<select name='title' id='title'>");
+  while($row=$result->fetch_assoc()){
+    echo("<option value=".$row['id'].">".$row['autor']."</option>");
+        }
+    echo("</select>");
        
 $sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id';
 echo("<h1>Połaczone tabelki</h1>");
