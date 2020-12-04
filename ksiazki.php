@@ -46,17 +46,16 @@ $result = $conn->query($sql);
 
         echo("</table>");
        
-       $sql = 'SELECT * FROM biblAutor_biblTytul';
-echo("<h1>Połaczone</h1>");
+$sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id';
+echo("<h1>Połaczone tabelki</h1>");
 $result = $conn->query($sql);
-        echo("<table border=1>");
+        echo("<table>");
         echo("<th>id</th>");
-        echo("<th>biblAutor_id</th>");
-        echo("<th>biblTytul_id</th>");
+        echo("<th>autor</th>");
+        echo("<th>tytul</th>");
             while($row=$result->fetch_assoc()){ 
                 echo("<tr>");
-                    echo("<td>".$row["id"]."</td><td>".$row["biblAutor_id"]."</td><td>".$row["biblTytul_id"]."</td>"); 
-
+                    echo("<td>".$row["id"]."</td><td>".$row["autor"]."</td><td>".$row["tytul"]."</td>"); 
                 echo("</tr>");
             }
 
