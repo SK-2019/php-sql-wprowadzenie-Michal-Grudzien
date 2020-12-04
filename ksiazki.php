@@ -22,7 +22,6 @@ $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo14
 $result = $conn->query($sql);
          echo("<hr />");
     echo("<h1>Tytuły</h1>");
-    echo("<li>$sql");
     echo("<select name='title' id='title'>");
   
         while($row=$result->fetch_assoc()){
