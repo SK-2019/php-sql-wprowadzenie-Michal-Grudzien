@@ -20,7 +20,6 @@
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
   $sql = 'SELECT * FROM biblTytul';
 $result = $conn->query($sql);
-         echo("<hr />");
     echo("<h1>Tytuły</h1>");
     echo("<select name='title' id='title'>");
   
@@ -29,7 +28,6 @@ $result = $conn->query($sql);
             echo("<option value=".$row['id'].">".$row['tytul']."</option>");
         }
     echo("</select>");
-echo("<hr />");
        
        $sql = 'SELECT * FROM biblAutor';
 echo("<h1>Autorzy</h1>");
