@@ -17,7 +17,23 @@
      <a class="nav_link" href="ksiazki.php"><b>Ksiazki i Autorzy<b></a>    
   </div>
 <?php
-$conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
+$conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
+  $sql = 'SELECT * FROM biblTytul';
+echo("<h1>Tytuły:</h1>");
+echo("<li>".$sql);
+$result = $conn->query($sql);
+        echo("<table border=1>");
+        echo("<th>id</th>");
+        echo("<th>tytul</th>");
+            while($row=$result->fetch_assoc()){ 
+                echo("<tr>");
+                    echo("<td>".$row["id"]."</td><td>".$row["tytul"]."</td>"); 
+
+                echo("</tr>");
+            }
+
+        echo("</table>");
+
 
 
 
