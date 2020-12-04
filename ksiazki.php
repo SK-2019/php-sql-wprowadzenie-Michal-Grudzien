@@ -14,7 +14,7 @@
     <a class="nav_link" href="data_czas.php">Data i Czas</a>
     <a class="nav_link" href="Danedobazy.php"><b>DaneDoBazy<b></a>
      <a class="nav_link" href="function.php"><b>Funkcja<b></a>
-     <a class="nav_link" href="biblioteka.php"><b>Ksiazki i Autorzy<b></a>    
+     <a class="nav_link" href="ksiazki.php"><b>Ksiazki i Autorzy<b></a>    
   </div>
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
