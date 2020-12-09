@@ -13,9 +13,9 @@
       <div class="item colorBlack">
      Linki:
        <ul>
-        <li class="item_link"><a class="https://michal-grudzien-indexphp.herokuapp.com/" href="">GitHub</a></li>
-        <li class="item_link"><a class="https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php" href="">DaneDoBazy</a></li>
-        <li class="item_link"><a class="https://michal-grudzien-indexphp.herokuapp.com/ksiazki.php" href="">Biblioteka</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com">GitHub</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php">DaneDoBazy</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/ksiazki.php">Biblioteka</a></li>
        </ul>
        
      </div>
