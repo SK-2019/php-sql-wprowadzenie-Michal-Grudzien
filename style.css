@@ -1,16 +1,3 @@
-body {
-    background-color: lightblue;
-  }
-table, th, td {
-  border: 1px solid black;
-}
-.nav{
-    background-color:yellow;
-}
-
-.nav_link{
-    color: green;
-}
 .container {
   background-color: gray;
   display: flex;
@@ -35,4 +22,19 @@ table, th, td {
   background-color: purple;
   width: 80%;
 }
+
+body {
+    background-color: lightblue;
+  }
+table, th, td {
+  border: 1px solid black;
+}
+.nav{
+    background-color:yellow;
+}
+
+.nav_link{
+    color: green;
+}
+
 
