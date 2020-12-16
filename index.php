@@ -11,7 +11,7 @@
         <h1 class="tltle"></h1>
       </div>
       <div class="item colorBlack">
-     Linki:
+     <h3> Linki: </h3>
        <ul>
         <li class="item_link"><a class="" href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">GitHub</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php">DaneDoBazy</a></li>
