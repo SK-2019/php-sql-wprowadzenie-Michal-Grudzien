@@ -3,19 +3,30 @@
 <head>
 <link rel="stylesheet" href="style.css">
 </head> 
-<body>
-  <h1>Michal Grudzien 2Ti</h1>
-  <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
-  <div class="nav">
-     <a class="nav_link" href="pracownicy.php">Pracownicy wstęp</a>
-     <a class="nav_link" href="funkcjeagregujace.php">Funkcje agregujace</a>
-    <a class="nav_link" href="pracownicy_organizacja.php"><b>Pracownicy i Organizacja<b></a>
-   <a class="nav_link" href="https://michal-grudzien-indexphp.herokuapp.com">Strona Glowna</a>
-    <a class="nav_link" href="data_czas.php">Data i Czas</a>
-    <a class="nav_link" href="Danedobazy.php"><b>DaneDoBazy<b></a>
-     <a class="nav_link" href="function.php"><b>Funkcja<b></a>
-     <a class="nav_link" href="ksiazki.php"><b>Ksiazki i Autorzy<b></a>    
-  </div>
+ <body>
+    <div class="container">
+      <div class="item colorWhite">
+
+        <h1 class="tltle"></h1>
+      </div>
+      <div class="item colorBlack">
+     <h3> Linki: </h3>
+       <ul>
+        <li class="item_link"><a class="" href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">GitHub</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/Danedobazy.php">DaneDoBazy</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/ksiazki.php">Biblioteka</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/index.php">StronaGlowna</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/funkcjeagregujace.php">FunkcjeAgregujace</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy_organizacja.php">Pracownicy_Organizacja</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy.php">Pracownicy</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/data_czas.php">DataCzas</a></li>
+        </ul>
+       
+     </div>
+      <div class="item colorPurple">
+         </div>
+    </div>
+  </body>
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");
   $sql = 'SELECT * FROM biblTytul';
