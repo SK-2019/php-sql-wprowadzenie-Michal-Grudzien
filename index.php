@@ -23,11 +23,8 @@
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/data_czas.php">DataCzas</a></li>
         </ul>
        
-     </div>
-      <div class="item colorPurple">
-         </div>
     </div>
-  </body>
+    <div class="item colorPurple">
 <?php
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<30');
@@ -57,5 +54,6 @@ echo('</tr>');
 echo('</table>');
 
 ?>
+</div>
 </body>
    </html>
