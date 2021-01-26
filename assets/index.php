@@ -16,7 +16,7 @@
         <li class="item_link"><a class="" href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">GitHub</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/Danedobazy.php">DaneDoBazy</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/biblioteka/ksiazki.php">Biblioteka</a></li>
-        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/assets/index.php">StronaGlowna</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/index.php">StronaGlowna</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/funkcjeagregujace.php">FunkcjeAgregujace</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/pracownicy_organizacja.php">Pracownicy_Organizacja</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/pracownicy.php">Pracownicy</a></li>
