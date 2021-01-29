@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Michał Grudzień 2Ti gr2</title>
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="assets/style.css">
 </head> 
 <body>
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
