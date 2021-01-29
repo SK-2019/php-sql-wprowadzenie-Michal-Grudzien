@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Michał Grudzień 2Ti gr2</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head> 
  <body>
     <div class="container">
