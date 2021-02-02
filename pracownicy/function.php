@@ -3,6 +3,7 @@
 <head>
 <title>Michał Grudzień 2Ti gr2</title>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/ico" sizes="16x16" href="../assets/favicon.ico">
 </head> 
 <body>
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Michal-Grudzien">Github</a>
