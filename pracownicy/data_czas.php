@@ -23,7 +23,6 @@
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy.php">Pracownicy</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/data_czas.php">DataCzas</a></li>
         </ul>
-       
      </div>
       <div class="item colorPurple">
          </div>
