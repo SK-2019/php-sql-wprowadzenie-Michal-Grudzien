@@ -30,7 +30,7 @@
     </div>
   </body>
 <?php
-  $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
+ require_once('pracownicy/connect.php');   
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
         echo("<h3>Tabela Pracowników</h3>");
         echo("<table border=1>");
