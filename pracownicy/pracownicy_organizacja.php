@@ -31,7 +31,7 @@
   </body>
 <?php
    
-   require_once('pracownicy/connect.php');  
+ require_once('assets/connect.php');  
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
    echo("<hr />");
         echo("<h3>Tabela Pracowników</h3>")
