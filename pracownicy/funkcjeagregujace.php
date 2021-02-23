@@ -30,7 +30,7 @@
     </div>
   </body>
 <?php
-            $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
+           require_once('pracownicy/connect.php');   
              echo("<hr />");
             $sql=('SELECT sum(zarobki) as suma from pracownicy');
             $result=$conn->query($sql);
