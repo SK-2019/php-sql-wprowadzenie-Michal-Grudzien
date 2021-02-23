@@ -30,7 +30,7 @@
     </div>
   </body>
 <?php
-           require_once('assets/connect.php');     
+               require_once('../assets/connect.php');    
              echo("<hr />");
             $sql=('SELECT sum(zarobki) as suma from pracownicy');
             $result=$conn->query($sql);
