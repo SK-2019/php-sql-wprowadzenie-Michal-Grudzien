@@ -30,9 +30,9 @@
   </body>
 <?php
 
-require_once('assets/connect.php');   
-                        
- echo("<hr>");
+require_once('../assets/connect.php');    
+ 
+           echo("<hr>");
             $sql=('SELECT * ,YEAR(curdate())-YEAR(data_urodzenia) as wiek FROM pracownicy,organizacja where dzial=id_org');
                     $result=$conn->query($sql);
                         echo("<table border=1>");
