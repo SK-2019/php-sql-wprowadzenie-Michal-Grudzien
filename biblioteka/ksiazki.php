@@ -30,7 +30,7 @@
     </div>
   </body>
 <?php
-require_once('pracownicy/connect.php');  
+require_once('assets/connect.php');  
   $sql = 'SELECT * FROM biblTytul';
 $result = $conn->query($sql);
     echo("<h1>Tytuły</h1>");
