@@ -30,7 +30,7 @@
     </div>
   </body>
 <?php
- require_once('pracownicy/connect.php');   
+require_once('assets/connect.php');    
    $result= $conn->query('SELECT * FROM pracownicy,organizacja where dzial=id_org');
         echo("<h3>Tabela Pracowników</h3>");
         echo("<table border=1>");
