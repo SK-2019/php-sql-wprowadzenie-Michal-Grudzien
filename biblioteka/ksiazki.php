@@ -30,8 +30,8 @@
     </div>
   </body>
 <?php
-require_once('assets/connect.php');  
-  $sql = 'SELECT * FROM biblTytul';
+require_once('../assets/connect.php');    
+$sql = 'SELECT * FROM biblTytul';
 $result = $conn->query($sql);
     echo("<h1>Tytuły</h1>");
     echo("<select name='title' id='title'>");
