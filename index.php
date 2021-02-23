@@ -28,6 +28,7 @@
     </div>
     <div class="item colorPurple">
 <?php
+echo("<li> hostname : ".$_SERVER['HTTP_HOST']);
 $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<30');
 echo('<table border = 1>');
