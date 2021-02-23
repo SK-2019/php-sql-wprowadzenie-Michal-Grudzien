@@ -30,7 +30,7 @@
   </body>
 <?php
 
- $conn = new mysqli( "mysql-michalgrudzien04.alwaysdata.net" , "218517" , "ZAKo140" , "michalgrudzien04_baza");  
+require_once('pracownicy/connect.php');  
                         
  echo("<hr>");
             $sql=('SELECT * ,YEAR(curdate())-YEAR(data_urodzenia) as wiek FROM pracownicy,organizacja where dzial=id_org');
