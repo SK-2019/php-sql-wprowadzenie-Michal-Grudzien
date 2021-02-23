@@ -29,7 +29,7 @@
     <div class="item colorPurple">
 <?php
 echo("<li> hostname : ".$_SERVER['HTTP_HOST']);
-require_once('pracownicy/connect.php');  
+require_once('assets/connect.php');  
 $result = $conn->query('SELECT*FROM pracownicy where imie not like "%a" and zarobki<30');
 echo('<table border = 1>');
 echo('<th>id</th>');
