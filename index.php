@@ -8,7 +8,7 @@
  <body>
     <div class="container">
       <div class="item colorWhite">
-        <h3> Michał Grudzień 2TI gr2 </h3>
+        <h3>Michał Grudzień 2TI gr2</h3>
 
         <h1 class="tltle"></h1>
       </div>
