@@ -23,6 +23,7 @@
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/pracownicy_organizacja.php">Pracownicy_Organizacja</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/pracownicy.php">Pracownicy</a></li>
         <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/data_czas.php">DataCzas</a></li>
+        <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/flexbox/index.html">Flexbox</a></li>
         </ul>
        
     </div>
