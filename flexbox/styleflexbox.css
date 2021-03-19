@@ -3,8 +3,8 @@
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     display: flex;
     justify-content: flex-start;
   }
@@ -12,8 +12,8 @@
 .header {
     background-color: royalblue;
     margin: 1px;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
   }
 
   .container2 {
@@ -21,8 +21,8 @@
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 50%;
     display: flex;
     justify-content: center;
   }
@@ -30,6 +30,6 @@
 .header2 {
     background-color: royalblue;
     margin: 1px;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
   }
