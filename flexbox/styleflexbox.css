@@ -1,0 +1,34 @@
+.container {
+  background-color: peru;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.header {
+  background-color: royalblue;
+  margin: 1px;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+}
+.test {
+  background-color: brown;
+}
+
+.nav {
+  background-color: greenyellow;
+  padding: 2px;
+  list-style: none;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-decoration: column;
+}
+
+.nav__item {
+  background-color: lightseagreen;
+  margin: 1px;
+}
