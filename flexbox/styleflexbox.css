@@ -38,6 +38,21 @@
     height: 40%;
   }
 
+.container_links{
+    background-color: orange;
+    text-decoration: none;
+    padding: 5px;
+    margin: 1px;
+    transition: 0.3s;
+  }
+    .container_links:hover{
+      background-color: lightblue;
+      padding: 5;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 35px;
+      margin: 1px;
+    }
+
 .container3 {
     background-color: greenyellow;
     padding: 5px;
