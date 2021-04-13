@@ -41,15 +41,15 @@
 .containerlinks{
     background-color: orange;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
     margin: 1px;
-    transition: 0.3s;
+    transition: 0.5s;
   }
     .containerlinks:hover{
       background-color: lightblue;
-      padding: 5;
-      border-bottom-left-radius: 20px;
-      border-top-right-radius: 35px;
+      padding: 8;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 20px;
       margin: 1px;
     }
 
