@@ -35,7 +35,7 @@ $result = $conn->query($sql);
             }
  echo("</table>");
  
-$sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul';
+$sql = 'SELECT * FROM biblAutor, biblTytul';
 $result = $conn->query($sql);
         echo("<table>");
         echo("<th>id</th>");
