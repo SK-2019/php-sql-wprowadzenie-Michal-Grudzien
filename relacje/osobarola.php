@@ -43,7 +43,7 @@ $result = $conn->query($sql);
         echo("<th>rola</th>");
         while($row=$result->fetch_assoc()){ 
          echo("<tr>");
-         echo("<td>".$row["nazwaosoby"]."</td><td>".$row["rola"]."</td>"); 
+        echo("<td>".$row["id"]."</td><td>".$row["nazwaosoby"]."</td><td>".$row["rola"]."</td>"); 
          echo("</tr>");
             }
  echo("</table>");
