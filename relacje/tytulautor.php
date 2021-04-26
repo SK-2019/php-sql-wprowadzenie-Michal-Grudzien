@@ -5,6 +5,7 @@
 <link rel="icon" type="image/ico" sizes="16x16" href="../assets/favicon.ico">
 </head> 
 <body>
+<?php       
 include('../assets/header.php');
 include('../assets/nav.php');
 echo("<li> hostname : ".$_SERVER['HTTP_HOST']);
