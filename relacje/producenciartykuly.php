@@ -35,7 +35,7 @@ $result = $conn->query($sql);
             }
  echo("</table>");
  
-$sql = 'SELECT * FROM sklepProducent, sklepArtykul, sklepProducent_szkolaKlasa WHERE sklepProducent_id=sklepProducent.id and sklepArtykul_id=sklepArtykul.id';
+$sql = 'SELECT * FROM sklepProducent, sklepArtykul, sklepProducent_sklepArtykul WHERE sklepProducent_id=sklepProducent.id and sklepArtykul_id=sklepArtykul.id';
 $result = $conn->query($sql);
         echo("<table>");
         echo("<th>id</th>");
