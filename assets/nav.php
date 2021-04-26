@@ -13,6 +13,10 @@
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/tytulautor.php">Relacja Autor-Tytul</a></li>
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/osobarola.php">Relacja Osoba-Rola</a></li>
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/prawniksprawasadowa.php">Relacja Prawnik-Sprawa Sądowa</a></li>
+ <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/nauczycielklasa.php">Relacja Nauczyciel-Klasa</a></li>
+ <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/producenciartykuly.php">Relacja Producenci-Artykuły</a></li>
+ <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/fryzjerklient.php">Relacja Fryzjer-Klient</a></li>
+</ul>   
 
 
   
