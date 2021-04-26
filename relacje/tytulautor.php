@@ -35,7 +35,7 @@ $result = $conn->query($sql);
             }
  echo("</table>");
  
-$sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id';
+$sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul';
 $result = $conn->query($sql);
         echo("<table>");
         echo("<th>id</th>");
@@ -43,7 +43,7 @@ $result = $conn->query($sql);
         echo("<th>tytul</th>");
         while($row=$result->fetch_assoc()){ 
          echo("<tr>");
-         echo("<td>".$row["id"]."</td><td>".$row["autor"]."</td><td>".$row["tytul"]."</td>"); 
+         echo("<td>".$row["autor"]."</td><td>".$row["tytul"]."</td>"); 
          echo("</tr>");
             }
  echo("</table>");
