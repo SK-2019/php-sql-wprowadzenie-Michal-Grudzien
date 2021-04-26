@@ -11,4 +11,6 @@
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/pracownicy/data_czas.php">DataCzas</a></li>
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/flexbox/index.html">Flexbox</a></li>
  <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/tytulautor.php">Relacja Autor-Tytul</a></li>
+ <li class="item_link"><a class="" href="https://michal-grudzien-indexphp.herokuapp.com/relacje/osobarola.php">Relacja Osoba-Rola</a></li>
+
   
