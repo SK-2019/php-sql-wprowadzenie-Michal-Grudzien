@@ -39,11 +39,11 @@ $sql = 'SELECT * FROM szkolaNauczyciel, szkolaKlasa, szkolaNauczyciel_szkolaKlas
 $result = $conn->query($sql);
         echo("<table>");
         echo("<th>id</th>");
-        echo("<th>prawnik</th>");
-        echo("<th>sprawa</th>");
+        echo("<th>nauczyciel</th>");
+        echo("<th>klasa</th>");
         while($row=$result->fetch_assoc()){ 
          echo("<tr>");
-        echo("<td>".$row["id"]."</td><td>".$row["prawnik"]."</td><td>".$row["sprawa"]."</td>"); 
+        echo("<td>".$row["id"]."</td><td>".$row["nauczyciel"]."</td><td>".$row["klasa"]."</td>"); 
          echo("</tr>");
             }
  echo("</table>");
