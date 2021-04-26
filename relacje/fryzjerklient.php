@@ -35,7 +35,7 @@ $result = $conn->query($sql);
             }
  echo("</table>");
  
-$sql = 'SELECT * FROM spafryzjer, spaklient, spafryzjer_spaklient WHERE spafryzjer_id=spafryzjer.id and spaklient_id=spaklient.id';
+$sql = 'SELECT * FROM spafryzjer, spaklient, spaFryzjer_spaKlient WHERE spafryzjer_id=spafryzjer.id and spaklient_id=spaklient.id';
 $result = $conn->query($sql);
         echo("<table>");
         echo("<th>id</th>");
