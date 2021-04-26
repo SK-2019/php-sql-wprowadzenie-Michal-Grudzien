@@ -9,8 +9,8 @@
 include('../assets/header.php');
 include('../assets/nav.php');
 echo("<li> hostname : ".$_SERVER['HTTP_HOST']);
-require_once('assets/connect.php');  
-echo('<h1>Autor-Tytul relacja wiele do wielu</h1>');
+require_once("../assets/connect.php");  
+echo("<h1>Autor-Tytul relacja wiele do wielu</h1>");
 $sql = 'SELECT * FROM biblTytul';
 $result = $conn->query($sql);
         echo("<table>");
